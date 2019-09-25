@@ -3,13 +3,23 @@
 <html>
 	<head>
 		<title> My first web page </title>
+		<script type="text/javascript"
+				src="passwordValidator.js">
+		</script>
 	</head>
 
 	<body>
-               In this sentence I have
-               <br>
-               <u>underlined words</u>, <i>italicized words</i>,
-               <br>
-               and <b>bold words</b>.
+		<h1>Password Validator</h1>
+
+		<p>Please enter your password:
+		<input type = "text": id="password1"><br></p>
+		<p>Please re-enter your password:
+		<input type = "text": id="password2"><br></p>
+		<button onclick="myFunc()">
+			Validate
+		</button>
+
+
+
 	</body>
 </html>
